@@ -9,7 +9,11 @@ ATG4B has been implicated in several diseases, including pulmonary fibrosis, lun
 
   To this end, we carefully compiled a set of 373 compounds from the ChEMBL database that have been assayed against ATG4B. Then we calculated different kinds of descriptors for these compounds including various types of fingerprints and physiochemical properties of molecules. Some of the popular machine learning regression algorithms were applied initially to this data for the sake of comparing various algorithm performances. Then best performing models were hyper tuned for finalization. Random forest and support vector regression have given the best performance.
 
-# Model
+# Feature Importance
+
+![image](https://user-images.githubusercontent.com/96526399/169310677-e42575c0-173d-46b0-bdfc-1e5be34dc613.png)
+
+# Final Model
 https://github.com/grjadhav409/ATG4B-Cancer-Inhibitors-Prediction-using-ML/blob/main/2_7_RF.ipynb
 
 Mean Absolute Error : 0.34
